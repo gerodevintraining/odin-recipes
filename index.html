@@ -2,25 +2,37 @@
 
 <html lang="en">
     <head>
-        <meta charset="UTF-8">
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="./styles.css">
         <title>Dominican Recipes</title>
     </head>
 
     <body>
-        <h1>Get a taste of Dominican Republic!</h1>
-        <img src="./images/dominican-republic-food.webp" alt="A variety of dominican food.">
+        <div>
+            <h1 class="section-header">Get a taste of Dominican Republic!</h1>
+            <div class="welcome-image-container">
+                <img src="./images/dominican-republic-food.webp" class="welcome-image" style="width: 1024px;" alt="A variety of dominican food.">
+            </div>
 
-        <h2>Popular Dominican Dishes:</h2>
-        <ul>
-            <li>
-                <a href="./recipes/los-tres-golpes.html">DOMINICAN BREAKFAST OF LOS TRES GOLPES CON MANGÚ</a>
-            </li>
-            <li>
-                <a href="./recipes/la-bandera-dominicana.html">LA BANDERA DOMINICANA: NATIONAL TRADITIONAL LUNCH</a>
-            </li>
-            <li>
-                <a href="./recipes/sancocho.html">SANCOCHO (MEAT AND ROOT VEGETABLES STEW)</a>
-            </li>
-        </ul>
+            <h2 class="section-header">Popular Dominican Dishes:</h2>
+            <section>
+                <nav>
+                    <div class="popular-cards">
+                        <div class="crop-image">
+                            <img src="./images/los-tres-golpes.webp" class="popular-card-image" alt="">
+                        </div>
+                        <a href="./recipes/los-tres-golpes.html">DOMINICAN BREAKFAST OF LOS TRES GOLPES CON MANGÚ</a>
+                    </div>
+                    <div class="popular-cards">
+                        <img src="./images/la-bandera-dominicana-comida.webp" class="popular-card-image" alt="">
+                        <a href="./recipes/la-bandera-dominicana.html">LA BANDERA DOMINICANA: NATIONAL TRADITIONAL LUNCH</a>
+                    </div>
+                    <div class="popular-cards">
+                        <img src="./images/sancocho-dominicano.png" class="popular-card-image" alt="">
+                        <a href="./recipes/sancocho.html">SANCOCHO (MEAT AND ROOT VEGETABLES STEW)</a>
+                    </div>
+                </nav>
+            </section>
+        </div>
     </body>
 </html>

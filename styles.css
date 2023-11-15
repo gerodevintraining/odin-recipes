@@ -5,3 +5,59 @@ html {
 li, p {
     font-family: Arial, Helvetica, sans-serif; 
 }
+
+main {
+    width: 900px;
+    margin: auto;
+    background: bisque;
+    padding: 10px;
+}
+
+section, .welcome-image-container {
+    width: 100%
+}
+
+.welcome-image {
+    display: block;
+    margin: auto;
+}
+
+.section-header {
+    text-align: center;
+}
+
+nav {
+    width: fit-content;
+    margin: auto;
+}
+
+.popular-cards {
+    display: inline-block;
+    width: 300px;
+    margin: 10px;
+}
+
+.popular-card-image {
+    height: auto;
+    width: 300px;
+}
+
+.crop-image {
+    height: 204px;
+    overflow: hidden;
+}
+
+.general-data-container {
+    width: fit-content;
+    margin: auto;
+}
+
+.general-data {
+    display: inline-block;
+    margin: 0px 56px;
+}
+
+.width-limit {
+    width: 800px;
+    margin: auto;
+}
